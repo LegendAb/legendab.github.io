@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap");
+@tailwind base;@tailwind components;@tailwind utilities;
+:root{--bg:#071014;--text:#f2f7f8}
+*{box-sizing:border-box;scroll-behavior:smooth}
+html{background:var(--bg)}
+body{margin:0;background:radial-gradient(circle at 85% 5%,rgba(22,184,223,.12),transparent 25rem),radial-gradient(circle at 10% 35%,rgba(22,184,223,.06),transparent 22rem),var(--bg);color:var(--text);font-family:"DM Sans",sans-serif}
+h1,h2,h3{font-family:"Space Grotesk",sans-serif}
+a{color:inherit;text-decoration:none}
+.container{width:min(1120px,calc(100% - 40px));margin:0 auto}
+.grid-bg{background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:48px 48px}
+.glass{background:rgba(12,24,29,.72);backdrop-filter:blur(14px)}
