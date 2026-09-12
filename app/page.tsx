@@ -53,7 +53,7 @@ const projects: Project[] = [
             "A cooperative savings platform — members contribute to shared plans, take loans, and repay them, while agents handle transactions on their behalf. I built the transaction and receipt system, contribution plans, and dashboard.",
         stack: ["React Native", "TypeScript", "Redux Toolkit", "REST APIs"],
         screenshots: [
-            // "/projects/adashe-1.png",
+            "/screenshot/adashe.png",
             // "/projects/adashe-2.png",
         ],
         // video: { type: "youtube", src: "https://www.youtube.com/embed/VIDEO_ID" },
