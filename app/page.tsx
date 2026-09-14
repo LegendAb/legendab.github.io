@@ -68,6 +68,7 @@ const projects: Project[] = [
         screenshots: [
             // "/projects/football-1.png",
         ],
+        video: { type: "youtube", src: "/video/football-app-video.mp4" },
         link: undefined,
     },
     {
@@ -88,9 +89,10 @@ const projects: Project[] = [
             "Frontend components and user interfaces for a music streaming platform.",
         stack: ["React.js"],
         screenshots: [
-            // "/projects/asra-1.png",
+            "/screenshot/asra.png",
         ],
         link: undefined,
+        video: { type: "youtube", src: "https://www.youtube.com/embed/YxU4FltaKF8" },
     },
     {
         title: "TechXplora Quiz Platform",
@@ -98,9 +100,9 @@ const projects: Project[] = [
         description: "An online quiz platform I built and maintained on WordPress.",
         stack: ["WordPress"],
         screenshots: [
-            // "/projects/techxplora-1.png",
+            "/screenshot/techxplora.png",
         ],
-        link: undefined,
+        link: "https://techxplora.co/",
     },
 ];
 
